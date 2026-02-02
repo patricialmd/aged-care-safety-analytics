@@ -1,6 +1,5 @@
-Data analytics portfolio project analysing aged care safety and wellness monitoring using Python, SQL, Excel, and Power BI to reduce fall incidents and improve senior health outcomes.
-
 # Aged Care Safety & Wellness Analytics
+This data analytics portfolio project analyses aged care safety and wellness monitoring using Python, SQL, Excel, and Power BI to reduce fall incidents and improve senior health outcomes.
 
 ## 🏥 My Story
 
