@@ -54,10 +54,10 @@ That's when my passion for data and aged care began. I saw how smarter systems a
 | Q2 | Geographic Demand & Resource Planning | Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
 | Q3 | Incident Volume & Safety Performance | Is safety improving or deteriorating over time? | Monthly totals range 34–62 — no sustained trend, safety performance is stable |
 | Q4 | Incident Type Patterns | What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
-| Q5 | Severity & Response Effectiveness | Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins — meets SIRS standards |
+| Q5 | Severity & Response Effectiveness | Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins; meets SIRS standards |
 | Q6 | Resolution Success & Operational Gaps | Where are incidents not being resolved and why? | High-severity resolution rate 77.4%; falls have most unresolved cases |
 | Q7 | Health Behaviour & Early Warning Indicators | Can health metrics help predict incidents? | Step counts and heart rates normal across all incident types |
-| Q8 | High-Risk Individual Monitoring | Which individuals need enhanced monitoring? | No residents met all extreme-risk thresholds — thresholds adjusted for early-warning cases |
+| Q8 | High-Risk Individual Monitoring | Which individuals need enhanced monitoring? | No residents met all extreme-risk thresholds; thresholds adjusted for early-warning cases |
 
 ---
 
@@ -77,9 +77,9 @@ That's when my passion for data and aged care began. I saw how smarter systems a
 ---
 
 ## Key Insights
-- **Stable safety performance** — monthly incidents range 34–62 with no sustained upward trend
+- **Stable safety performance**: monthly incidents range 34–62 with no sustained upward trend
 - **Falls are the #1 incident type** across ALL risk groups, accounting for 36% of total incidents (233 cases)
-- **Fast emergency response** — high-severity incidents receive an average response of 4.8 minutes, meeting SIRS expectations
-- **Strong resolution outcomes** — 77.4% resolution rate for high-severity incidents
-- **Perth is the highest-demand city** — largest high-risk cohort (75 residents) and highest incident volume
-- **No extreme-risk cases identified** — no residents simultaneously met all high-risk thresholds
+- **Fast emergency response**: high-severity incidents receive an average response of 4.8 minutes, meeting SIRS expectations
+- **Strong resolution outcomes**: 77.4% resolution rate for high-severity incidents
+- **Perth is the highest-demand city**: largest high-risk cohort (75 residents) and highest incident volume
+- **No extreme-risk cases identified**: no residents simultaneously met all high-risk thresholds
