@@ -41,7 +41,7 @@ That's when my passion for data and aged care began. I saw how smarter systems a
 
 | File | Rows | Description |
 |------|------|-------------|
-| `seniors.csv` | 1,000 | Resident profiles — senior id, name, age, gender, location, admission date, risk category |
+| `seniors.csv` | 1,000 | Resident profiles: senior id, name, age, gender, location, admission date, risk category |
 | `health_metrics.csv` | 365,000 | Daily health records: senior id, date, step count, heart rate, room temperature, smoke level |
 | `incidents.csv` | 608 | Safety incident records: senior id, incident date, incident time, incident type, severity, response time in minutes, resolution status |
 
@@ -52,7 +52,7 @@ That's when my passion for data and aged care began. I saw how smarter systems a
 |---|-----------|-------------------|-------------|
 | Q1 | Population & Risk Profiling | Who are we caring for and where is risk concentrated? | Perth has the largest high-risk cohort (75 residents, avg age 89–90) |
 | Q2 | Geographic Demand & Resource Planning | Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
-| Q3 | Incident Volume & Safety Performance | Is safety improving or deteriorating over time? | Monthly totals range 34–62 — no sustained trend, safety performance is stable |
+| Q3 | Incident Volume & Safety Performance | Is safety improving or deteriorating over time? | Monthly totals range 34–62 which means no sustained trend, safety performance is stable |
 | Q4 | Incident Type Patterns | What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
 | Q5 | Severity & Response Effectiveness | Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins; meets SIRS standards |
 | Q6 | Resolution Success & Operational Gaps | Where are incidents not being resolved and why? | High-severity resolution rate 77.4%; falls have most unresolved cases |
