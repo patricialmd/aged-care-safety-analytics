@@ -14,7 +14,7 @@ As I got older and watched my parents age, I realised the biggest challenge was 
 
 When I moved to Australia with my mom, a senior citizen, I learned about the country's healthcare and aged care systems through news and my sister's stories such as structured support, health monitoring, and government subsidies. My sister and her family had access to free healthcare as citizens. My mom didn't. That gap pushed me to build solutions.
 
-For academic purposes, I built a **fire-prediction mobile app prototype** that alerts seniors when smoke is detected. As a personal project, I built a **step-count dashboard** tracking my mom's activity patterns. This project is my next step, a full analytics system that could directly prevent emergencies and improve independence for seniors. Through these small projects, I realised something powerful: **data could be the foundation of better care**.
+For academic purposes, I built a **fire-prediction mobile app prototype** that alerts seniors when smoke is detected. As a personal project, I built a **step-count dashboard** tracking my mom's activity patterns. This personal project is my next step, a full analytics system that could directly prevent emergencies and improve independence for seniors. Through these small projects, I realised something powerful: **data could be the foundation of better care**.
 
 ### My Commitment
 
