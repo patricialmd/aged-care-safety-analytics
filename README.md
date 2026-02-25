@@ -1,5 +1,4 @@
-# Aged Care Safety & Risk Monitoring Analytics
-## End-to-end Data Analytics Portfolio | Python, SQL, Microsoft Excel, Power BI
+# Aged Care Safety & Risk Monitoring Analytics (End-to-end Data Analytics Portfolio) 
 This portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters backed up by research to an interactive Power BI dashboard, with SQL Analysis and Microsoft Excel pivot reporting in between.
 
 ![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_AllRisks.png)
@@ -30,7 +29,7 @@ That's when my passion for data and aged care began. I saw how smarter systems a
 
 ---
 
-## Tools Used
+## Tools I Used
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -64,16 +63,16 @@ That's when my passion for data and aged care began. I saw how smarter systems a
 
 ## Dashboard Previews
 ### Excel
-![Excel Dashboard] (https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
+![Excel Dashboard](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
 
 ### Power BI - Low Risk View
-![Power BI Low Risk] (https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_LowRisk.png)
+![Power BI Low Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_LowRisk.png)
 
 ### Power BI - Medium Risk View
-![Power BI Medium Risk] (https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_MediumRisk.png)
+![Power BI Medium Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_MediumRisk.png)
 
 ### Power BI - High Risk View
-![Power BI High Risk] (https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_HighRisk.png)
+![Power BI High Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_HighRisk.png)
 
 ---
 
