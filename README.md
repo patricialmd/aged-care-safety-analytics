@@ -1,5 +1,5 @@
 # Aged Care Safety & Risk Monitoring Analytics 
-> **End-to-end Data Analytics Portfolio**
+> **End-to-end Data Analytics Portfolio** | Python, SQL, Microsoft Excel, Power BI
 
 This portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters backed up by research to an interactive Power BI dashboard, with SQL Analysis and Microsoft Excel pivot reporting in between.
 
