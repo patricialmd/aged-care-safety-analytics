@@ -26,6 +26,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 | # | Query Name | Business Question | Key Finding |
 |---|-----------|-------------------|-------------|
 | Q1 | Population & Risk Profiling | Who are we caring for and where is risk concentrated? | Perth has the largest high-risk cohort (75 residents, avg age 89 to 90) |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q1.png)
 | Q2 | Geographic Demand & Resource Planning | Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
 | Q3 | Incident Volume & Safety Performance | Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means no sustained trend, safety performance is stable |
 | Q4 | Incident Type Patterns | What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
