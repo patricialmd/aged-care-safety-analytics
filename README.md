@@ -28,7 +28,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Who are we caring for and where is risk concentrated? | Perth has the largest high-risk cohort (75 residents, avg age 89 to 90) |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q1.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query1.png)
 
 ---
 
@@ -37,7 +37,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q2.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query2.png)
 
 ---
 
@@ -46,7 +46,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means no sustained trend, safety performance is stable |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q3.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query3.png)
 
 ---
 
@@ -55,7 +55,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q4.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query4.png)
 
 ---
 
@@ -64,7 +64,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins; meets SIRS standards |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q5.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query5.png)
 
 ---
 
@@ -73,7 +73,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Where are incidents not being resolved and why? | High-severity resolution rate 77.4%; falls have most unresolved cases |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q6.1.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query6.png)
 
 ---
 
@@ -82,7 +82,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Can health metrics help predict incidents? | Step counts and heart rates normal across all incident types |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q7.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query7.png)
 
 ---
 
@@ -91,7 +91,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 |-------------------|-------------|
 | Which individuals need enhanced monitoring? | No residents met all extreme-risk thresholds; thresholds adjusted for early-warning cases |
 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q8.png)
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query8.png)
 
 ---
 
