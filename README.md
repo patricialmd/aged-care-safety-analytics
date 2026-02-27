@@ -23,17 +23,53 @@ This portfolio project analyses resident safety incidents, health monitoring met
 
 
 ## 8 SQL Queries at a Glance
-| # | Query Name | Business Question | Key Finding |
-|---|-----------|-------------------|-------------|
-| Q1 | Population & Risk Profiling | Who are we caring for and where is risk concentrated? | Perth has the largest high-risk cohort (75 residents, avg age 89 to 90) |
+**Query 1: Population & Risk Profiling**
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Who are we caring for and where is risk concentrated? | Perth has the largest high-risk cohort (75 residents, avg age 89 to 90) |
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q1.png)
-| Q2 | Geographic Demand & Resource Planning | Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
-| Q3 | Incident Volume & Safety Performance | Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means no sustained trend, safety performance is stable |
-| Q4 | Incident Type Patterns | What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
-| Q5 | Severity & Response Effectiveness | Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins; meets SIRS standards |
-| Q6 | Resolution Success & Operational Gaps | Where are incidents not being resolved and why? | High-severity resolution rate 77.4%; falls have most unresolved cases |
-| Q7 | Health Behaviour & Early Warning Indicators | Can health metrics help predict incidents? | Step counts and heart rates normal across all incident types |
-| Q8 | High-Risk Individual Monitoring | Which individuals need enhanced monitoring? | No residents met all extreme-risk thresholds; thresholds adjusted for early-warning cases |
+
+**Query 2: Geographic Demand & Resource Planning** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q2.png)
+
+**Query 3: Incident Volume & Safety Performance** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means no sustained trend, safety performance is stable |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q3.png)
+
+**Query 4: Incident Type Patterns** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q4.png)
+
+**Query 5: Severity & Response Effectiveness** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins; meets SIRS standards |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q5.png)
+
+**Query 6: Resolution Success & Operational Gaps** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Where are incidents not being resolved and why? | High-severity resolution rate 77.4%; falls have most unresolved cases |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q6.1.png)
+
+**Query 7: Health Behaviour & Early Warning Indicators** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Can health metrics help predict incidents? | Step counts and heart rates normal across all incident types |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q7.png)
+
+**Query 8: High-Risk Individual Monitoring** 
+| Business Question | Key Finding |
+|-------------------|-------------|
+| Which individuals need enhanced monitoring? | No residents met all extreme-risk thresholds; thresholds adjusted for early-warning cases |
+![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/q8.png)
 
 
 ## Dashboard Previews
