@@ -86,77 +86,18 @@ As a summary, the parameters in the datasets I have created using Python are all
 
 ---
 
-## 4. Eight SQL Queries Used
-**Query 1: Population & Risk Profiling**
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Who are we caring for and where is risk concentrated? | Risk is most concentrated in Perth, which has the highest number of high-risk residents at 75 residents with an average age of 89 to 90. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query1.png)
-
----
-
-**Query 2: Geographic Demand & Resource Planning** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Which cities generate the highest operational load? | Perth and Adelaide have highest volumes, and Brisbane and Sydney show higher high-severity counts. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query2.png)
-
----
-
-**Query 3: Incident Volume & Safety Performance** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means there is no sustained trend. Safety performance is stable. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query3.png)
-
----
-
-**Query 4: Incident Type Patterns** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| What types of incidents are most common by risk group? | Falls dominate all risk groups, and wandering is concentrated in high-risk residents. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query4.png)
-
----
-
-**Query 5: Severity & Response Effectiveness** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Are high-severity incidents responded to fast enough? | Yes, high-severity incidents are responded to in 4.8 mins, medium in 9.1 mins, and low in 18.6 mins, all within SIRS standards. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query5.png)
-
----
-
-**Query 6: Resolution Success & Operational Gaps** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Where are incidents not being resolved and why? | High-severity resolution rate is 77.4% and falls have the most unresolved cases. Some incidents remain unresolved because ongoing care is needed. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query6.png)
-
----
-
-**Query 7: Health Behaviour & Early Warning Indicators** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Can health metrics help predict incidents? | Step counts (6,596–6,996) and heart rates (73–75 bpm) are consistent across all incident types, suggesting health metrics alone cannot predict incidents. |
-
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query7.png)
-
----
-
-**Query 8: High-Risk Individual Monitoring** 
-| Business Question | Key Finding |
-|-------------------|-------------|
-| Which individuals need enhanced monitoring? | No residents were identified as extreme risk. | 
+## 4. 8 SQL Queries Used
+| Query | Business Question | Key Finding |
+|-------------|-------------------|-------------|
+| **Query 1: Risk Profiling**| Where is risk concentrated? | Risk is most concentrated in Perth, which has the highest number of high-risk residents at 75 residents with an average age of 89 to 90. |
+| **Query 2: Geographic Demand & Resource Planning** | Which cities generate the highest operational load? | Perth and Adelaide have highest volumes, and Brisbane and Sydney show higher high-severity counts. |
+| **Query 3: Incident Volume & Safety Performance** | Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means there is no sustained trend. Safety performance is stable. |
+| **Query 4: Incident Type Patterns** | What types of incidents are most common by risk group? | Falls dominate all risk groups, and wandering is concentrated in high-risk residents. |
+| **Query 5: Severity & Response Effectiveness** | Are high-severity incidents responded to fast enough? | Yes, high-severity incidents are responded to in 4.8 mins, medium in 9.1 mins, and low in 18.6 mins, all within SIRS standards. |
+|**Query 6: Resolution Success & Operational Gaps** | Where are incidents not being resolved and why? | High-severity resolution rate is 77.4% and falls have the most unresolved cases. Some incidents remain unresolved because ongoing care is needed. |
+| **Query 7: Health Behaviour & Early Warning Indicators** | Can health metrics help predict incidents? | Step counts (6,596–6,996) and heart rates (73–75 bpm) are consistent across all incident types, suggesting health metrics alone cannot predict incidents. |
+| **Query 8: High-Risk Individual Monitoring** | Which individuals need enhanced monitoring? | No residents were identified as extreme risk. | 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query8.png)
-
----
 
 ## Dashboard Previews
 ### Excel
