@@ -1,12 +1,13 @@
 # Aged Care Safety & Risk Monitoring Analytics 
-> **End-to-end Data Analytics Portfolio** 
+
 ![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/All-Risks-View.png)
 
-This portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters sourced from existing literature and official sources, to an interactive Power BI dashboard, with SQL analysis and Microsoft Excel pivot reporting in between.
+## 1. Introduction
+This end-to-end data analytics portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters sourced from existing literature and official sources, to an interactive Power BI dashboard, with SQL analysis and Microsoft Excel pivot reporting in between.
 
 ---
 
-## Tools I Used
+## 2. Tools Used
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -14,7 +15,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 
 ---
 
-## Dataset Summary
+## 3. Dataset Summary
 
 | File | Rows | Description |
 |------|------|-------------|
@@ -34,7 +35,7 @@ The variables in each dataset were selected based on existing research, governme
 | **Gender split** | 48% male, 52% female | Reflects real population as women live longer on average | Population demographics | Elderly population shows slight female majority due to longer life expectancy | https://www.abs.gov.au/ |
 | **Location** | 6 major cities (Sydney, Melbourne, Brisbane, Perth, Adelaide, Canberra) | Most aged care facilities are in major cities | Geographic distribution data | Aged care facilities concentrated in capital cities and major regional centers | https://www.gen-agedcaredata.gov.au/ |
 | **Risk Category - High** | Age 85+ years | Older seniors need more intensive care and have higher fall risk |  AIHW Admission Data | "21% of people aged 85 and over" are in permanent residential care (much higher than younger groups) | https://pmc.ncbi.nlm.nih.gov/articles/PMC12018721/ |
-| **Risk Categoty - Medium** | Age 75-84 years | Moderate care needs | Clinical age stratification | Age-stratified risk assessment (65-79, 80-89, 90+) is standard in aged care research | https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-019-1089-3 |
+| **Risk Category - Medium** | Age 75-84 years | Moderate care needs | Clinical age stratification | Age-stratified risk assessment (65-79, 80-89, 90+) is standard in aged care research | https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-019-1089-3 |
 | **Risk Category - Low** | Age 65-74 years | Lower care needs, more independent | Clinical age stratification | Youngest aged care residents typically more independent | Standard clinical practice |
 
 ### 2. HEALTH-METRICS.CSV
@@ -85,11 +86,11 @@ As a summary, the parameters in the datasets I have created using Python are all
 
 ---
 
-## 8 SQL Queries Used
+## 4. Eight SQL Queries Used
 **Query 1: Population & Risk Profiling**
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Who are we caring for and where is risk concentrated? | Perth has the largest high-risk cohort (75 residents, avg age 89 to 90) |
+| Who are we caring for and where is risk concentrated? | Risk is most concentrated in Perth, which has the highest number of high-risk residents at 75 residents with an average age of 89 to 90. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query1.png)
 
@@ -98,7 +99,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 2: Geographic Demand & Resource Planning** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Which cities generate the highest operational load? | Perth and Adelaide have highest volumes; Brisbane and Sydney show higher high-severity counts |
+| Which cities generate the highest operational load? | Perth and Adelaide have highest volumes, and Brisbane and Sydney show higher high-severity counts. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query2.png)
 
@@ -107,7 +108,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 3: Incident Volume & Safety Performance** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means no sustained trend, safety performance is stable |
+| Is safety improving or deteriorating over time? | Monthly totals range 34 to 62 which means there is no sustained trend. Safety performance is stable. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query3.png)
 
@@ -116,7 +117,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 4: Incident Type Patterns** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| What types of incidents are most common by risk group? | Falls dominate all risk groups; wandering is concentrated in high-risk residents |
+| What types of incidents are most common by risk group? | Falls dominate all risk groups, and wandering is concentrated in high-risk residents. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query4.png)
 
@@ -125,7 +126,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 5: Severity & Response Effectiveness** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Are high-severity incidents responded to fast enough? | High: 4.8 mins, Medium: 9.1 mins, Low: 18.6 mins; meets SIRS standards |
+| Are high-severity incidents responded to fast enough? | Yes, high-severity incidents are responded to in 4.8 mins, medium in 9.1 mins, and low in 18.6 mins, all within SIRS standards. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query5.png)
 
@@ -134,7 +135,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 6: Resolution Success & Operational Gaps** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Where are incidents not being resolved and why? | High-severity resolution rate 77.4%; falls have most unresolved cases |
+| Where are incidents not being resolved and why? | High-severity resolution rate is 77.4% and falls have the most unresolved cases. Some incidents remain unresolved because ongoing care is needed. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query6.png)
 
@@ -143,7 +144,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 7: Health Behaviour & Early Warning Indicators** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Can health metrics help predict incidents? | Step counts and heart rates normal across all incident types |
+| Can health metrics help predict incidents? | Step counts (6,596–6,996) and heart rates (73–75 bpm) are consistent across all incident types, suggesting health metrics alone cannot predict incidents. |
 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query7.png)
 
@@ -152,8 +153,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 **Query 8: High-Risk Individual Monitoring** 
 | Business Question | Key Finding |
 |-------------------|-------------|
-| Which individuals need enhanced monitoring? | No residents met all extreme-risk thresholds; thresholds adjusted for early-warning cases |
-
+| Which individuals need enhanced monitoring? | No residents were identified as extreme risk. | 
 ![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query8.png)
 
 ---
