@@ -101,22 +101,24 @@ As a summary, the parameters in the datasets I have created using Python are all
 ## Dashboard Previews
 ### Excel
 ![Excel Dashboard](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
-The Excel dashboard shows data from February 2025 to January 2026, one full year of monitoring 1,000 elderly residents across 6 Australian cities. It has a total of 5 charts and a key insights & findings section:
-- 1.*Monthly Safety trends*:  The number of incidents goes up and down slightly each month but stays within a similar range throughout the year. There are no dramatic spikes or drops. High-severity incidents follow a similar pattern, peaking in the middle of the year then going down toward the end.
-- 2.*Resolution Rates by Severity*: Most incidents across all severity levels are being resolved as the resolved portion is much bigger than the unresolved portion in all 3 groups.
-- 3.*Response Performance by Severity*: The more serious the incident, the faster the response. High-severity incidents get the quickest attention while low-severity incidents take the longest to respond to.
-- 4.*Population by Risk & Location*: Perth stands out as the city with the most high-risk residents compared to all other cities.
-- 5.*Incident Types by Category*: Falls are the most common type of incident across all risk groups. High-risk residents have the most incidents overall compared to medium and low-risk residents.
-- 6.*Key Insights and Findings*: Summarises the most important findings from the dashboard, written in plain text for quick and easy reading.
+This Excel dashboard shows data from February 2025 to January 2026, one full year of monitoring 1,000 elderly residents across 6 Australian cities. It has a total of 5 charts and a key insights & findings section:
+- **Monthly Safety trends**:  The number of incidents goes up and down slightly each month but stays within a similar range throughout the year. There are no dramatic spikes or drops. High-severity incidents follow a similar pattern, peaking in the middle of the year then going down toward the end.
+- **Resolution Rates by Severity**: Most incidents across all severity levels are being resolved as the resolved portion is much bigger than the unresolved portion in all 3 groups.
+- **Response Performance by Severity**: The more serious the incident, the faster the response. High-severity incidents get the quickest attention while low-severity incidents take the longest to respond to.
+- **Population by Risk & Location**: Perth stands out as the city with the most high-risk residents compared to all other cities.
+- **Incident Types by Category**: Falls are the most common type of incident across all risk groups. High-risk residents have the most incidents overall compared to medium and low-risk residents.
+- **Key Insights and Findings**: Summarises the most important findings from the dashboard, written in plain text for quick and easy reading.
 
 ### Power BI - Low Risk View
 ![Power BI Low Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Low-Risk-View.png)
+This dashboard filters data to show only **low-risk residents aged 65-74**. Safety performance is generally stable with no clear upward or downward trend in incidents throughout the year. Falls are the most common incident type across all cities, and most incidents are being resolved. However, the serious incident rate is above threshold, suggesting that even low-risk residents still need careful monitoring.
 
 ### Power BI - Medium Risk View
 ![Power BI Medium Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Medium-Risk-View.png)
 
 ### Power BI - High Risk View
 ![Power BI High Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/High-Risk-View.png)
+This dashboard filters data to show only **high-risk residents aged 85 and above**. Despite being the highest risk group, the serious incident rate is relatively low at 8.48% though still above threshold, and high-severity incidents have the best resolution rate at 84.21%. Falls remain the most common incident type across all cities, with Perth having the highest incident volume. Monthly incidents fluctuate throughout the year with high-severity incidents showing more dramatic ups and downs compared to total incidents.
 
 
 ## Key Insights
