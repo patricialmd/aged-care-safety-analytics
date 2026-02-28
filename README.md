@@ -162,4 +162,11 @@ This dashboard filters data to show only **high-risk residents aged 85 and above
 ## 7. Conclusion
 This project shows that data analytics can help aged-care homes understand what is happening to their residents and identify patterns, predict risks, and prevent incidents before they actually happen. The analysis reveals that: 1) many elderly residents get hurt because of falls, 2) Perth needs the most staff, support services, and equipment among the 6 cities, and 3)staff are responding to incidents quickly enough according to safety standards. However, because older people are fragile, even low-risk residents are prone to serious incidents, so safety must always be monitored for everyone, not only high-risk residents. As Australia's ageing population continues to grow, projects like this show how data can be used to support staff, improve care decisions, and ultimately keep older Australians safer in their homes and care facilities.
 
+## Credits
+Icons used in this project:
+- [Wheelchair icons](https://www.flaticon.com/free-icons/wheelchair) created by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
+- [Elderly icons](https://www.flaticon.com/free-icons/elderly) created by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
+- [Old man icons](https://www.flaticon.com/free-icons/old-man) created by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
+- [Old icons](https://www.flaticon.com/free-icons/old) created by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
+
 
