@@ -90,7 +90,7 @@ The variables in each dataset were selected based on existing research, governme
 | **Response time: LOW severity** | 5-30 minutes | Low-priority incidents handled in normal workflow | Operational Efficiency | Low-severity incidents managed within routine care workflows | Standard aged care practice |
 | **Resolved status** | 75% Yes, 25% No | Most incidents are resolved, some need ongoing care | Clinical Documentation | Some incidents require ongoing monitoring or treatment; not all resolve immediately | Clinical documentation practice |
 
-As a summary, the parameters in the datasets I have created using Python are all research-backed. Nothing is made up randomly. The exact percentages (such as fall, medication, and the like) matches official AIHW 2023-24 government data. The fall timing, activity levels and heart rates use peer-reviewed studies. The WHO temperature guidelines and Mayo Clinic rates follow medical standards. Merged together, the three datasets contain a combined total of 366,608 records across 3 files which shows a realistic data volume. They also follow proper database design principles, including foreign keys, normalisation, and relational structure.
+As a summary, the parameters in the datasets I have created using Python are all research-backed. Nothing is made up randomly. The exact percentages (such as fall, medication, and the like) matches official AIHW 2023-24 government data. The fall timing, activity levels and heart rates use peer-reviewed studies. The WHO temperature guidelines and Mayo Clinic rates follow medical standards. Merged together, the three datasets contain a combined total of 365,000+ records across 3 files which shows a realistic data volume. They also follow proper database design principles, including foreign keys, normalisation, and relational structure.
 
 
 ---
@@ -143,9 +143,13 @@ This dashboard filters data to show only **high-risk residents aged 85 and above
 
 
 ## Key Insights
-- **Stable safety performance**: monthly incidents range 34 to 62 with no sustained upward trend
-- **Falls are the #1 incident type** across ALL risk groups, accounting for 36% of total incidents (233 cases)
-- **Fast emergency response**: high-severity incidents receive an average response of 4.8 minutes, meeting SIRS expectations
-- **Strong resolution outcomes**: 77.4% resolution rate for high-severity incidents
-- **Perth is the highest-demand city**: largest high-risk cohort (75 residents) and highest incident volume
-- **No extreme-risk cases identified**: no residents simultaneously met all high-risk thresholds
+- **Falls are the most common incident type** across ALL risk groups, making up 36% of total incidents with 233 cases recorded.
+- **Safety performance is stable** for the whole year, with monthly incidents ranging from 34 to 62 and no signs of worsening over time.
+- **High-severity incidents are responded quickly**, with an average response of 4.8 minutes, which meets SIRS expectations.
+- **Most high-severity incidents are successfully resolved**, with a resolution rate of 77.4%.
+- **Perth has the highest-demand**, with the most high-risk residents at 75 and the highest incident volume across all cities.
+- **No residents were identified as extreme risk**, as no one simultaneously met all high-risk thresholds.
+- **The serious incident rate is above threshold across all risk levels**, which means all residents need careful monitoring regardless of risk category.
+
+## Conclusion
+
