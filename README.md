@@ -1,10 +1,10 @@
 # Aged Care Safety & Risk Monitoring Analytics 
 > **End-to-end Data Analytics Portfolio** 
+![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/All-Risks-View.png)
 
 This portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters sourced from existing literature and official sources, to an interactive Power BI dashboard, with SQL analysis and Microsoft Excel pivot reporting in between.
 
-![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/All-Risks-View.png)
-
+---
 
 ## Tools I Used
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -12,6 +12,7 @@ This portfolio project analyses resident safety incidents, health monitoring met
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
+---
 
 ## Dataset Summary
 
@@ -21,7 +22,8 @@ This portfolio project analyses resident safety incidents, health monitoring met
 | `health_metrics.csv` | 365,000 | Daily health records: senior id, date, step count, heart rate, room temperature, smoke level |
 | `incidents.csv` | 608 | Safety incident records: senior id, incident date, incident time, incident type, severity, response time in minutes, resolution status |
 
-The variables in each file were selected based on existing research, government data, and industry standards in aged care safety, elderly health monitoring, and incident reporting within Australian residential aged care settings.  Below is a breadown of each file and the parameters used to create them.
+The variables in each dataset were selected based on existing research, government data, and industry standards in aged care safety, elderly health monitoring, and incident reporting within Australian residential aged care settings.  Below is a breadown of each dataset and the parameters I used to create them:
+
 ### 1. SENIORS.CSV
 | What I Used | Value in my Script | Why I need this | Research Proof | Exact Quote | Source/Link |
 |-------------|--------------------|-----------------|----------------|-------------|--------------|
@@ -78,6 +80,10 @@ The variables in each file were selected based on existing research, government 
 | **Response time: MEDIUM severity** | 3-15 minutes | Moderate incidents addressed quickly | Care Facility Protocols | Medium-severity incidents addressed within 15 minutes | Aged care operational standards |
 | **Response time: LOW severity** | 5-30 minutes | Low-priority incidents handled in normal workflow | Operational Efficiency | Low-severity incidents managed within routine care workflows | Standard aged care practice |
 | **Resolved status** | 75% Yes, 25% No | Most incidents are resolved, some need ongoing care | Clinical Documentation | Some incidents require ongoing monitoring or treatment; not all resolve immediately | Clinical documentation practice |
+
+As a summary, the parameters in the datasets I have created using Python are all research-backed. Nothing is made up randomly. The exact percentages (such as fall, medication, and the like) matches official AIHW 2023-24 government data. The fall timing, activity levels and heart rates use peer-reviewed studies. The WHO temperature guidelines and Mayo Clinic rates follow medical standards. Merged together, the three datasets contain a combined total of 366,608 records across 3 files which shows a realistic data volume. They also follow proper database design principles, including foreign keys, normalisation, and relational structure.
+
+---
 
 ## 8 SQL Queries Used
 **Query 1: Population & Risk Profiling**
