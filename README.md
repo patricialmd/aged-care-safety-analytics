@@ -97,7 +97,6 @@ As a summary, the parameters in the datasets I have created using Python are all
 |**Query 6: Resolution Success & Operational Gaps** | Where are incidents not being resolved and why? | High-severity resolution rate is 77.4% and falls have the most unresolved cases. Some incidents remain unresolved because ongoing care is needed. |
 | **Query 7: Health Behaviour & Early Warning Indicators** | Can health metrics help predict incidents? | Step counts (6,596–6,996) and heart rates (73–75 bpm) are consistent across all incident types, suggesting health metrics alone cannot predict incidents. |
 | **Query 8: High-Risk Individual Monitoring** | Which individuals need enhanced monitoring? | No residents were identified as extreme risk. | 
-![](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/query8.png)
 
 ## Dashboard Previews
 ### Excel
