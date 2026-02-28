@@ -2,10 +2,14 @@
 
 ![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/All-Risks-View.png)
 
+This end-to-end data analytics project analyses the safety and risk monitoring of 1,000 elderly residents across 6 major Australian cities, which are Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane. It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters sourced from existing literature and official sources, to an interactive Power BI dashboard, with SQL analysis and Microsoft Excel pivot reporting in between.
+
 ## 1. Introduction
-This end-to-end data analytics portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters sourced from existing literature and official sources, to an interactive Power BI dashboard, with SQL analysis and Microsoft Excel pivot reporting in between.
+In Australia, the elderly population is increasing, which means more people need support and need to move to care homes. In aged care facilities, more residents means more responsibility, and it is harder for staff to keep everyone safe. Older people are more likely to get sick suddenly, fall, need medication, and need help with daily activities such as walking or eating. This project aims to bridge that gap by analysing safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities, with the goal of identifying patterns that can support better care decisions and resource planning for older Australians.
+
 
 ---
+
 
 ## 2. Tools Used
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -13,7 +17,9 @@ This end-to-end data analytics portfolio project analyses resident safety incide
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
+
 ---
+
 
 ## 3. Dataset Summary
 
@@ -38,6 +44,7 @@ The variables in each dataset were selected based on existing research, governme
 | **Risk Category - Medium** | Age 75-84 years | Moderate care needs | Clinical age stratification | Age-stratified risk assessment (65-79, 80-89, 90+) is standard in aged care research | https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-019-1089-3 |
 | **Risk Category - Low** | Age 65-74 years | Lower care needs, more independent | Clinical age stratification | Youngest aged care residents typically more independent | Standard clinical practice |
 
+
 ### 2. HEALTH-METRICS.CSV
 | What I Used | Value in my Script | Why I need this | Research Proof | Exact Quote | Source/Link |
 |-------------|--------------------|-----------------|----------------|-------------|--------------|
@@ -54,6 +61,7 @@ The variables in each dataset were selected based on existing research, governme
 | **Room temperature - Base** | 22°C | Standard aged care facility temperature | Aged Care Standards | Typical room temperature maintained in aged care facilities for comfort and safety | https://www.health.gov.au/resources/publications/aged-care-quality-standards |
 | **Smoke level - Normal** | 0 (98% of time) | No smoke detected most of the time | Fire Safety Normal | Smoke detectors remain at zero when no fire/smoke present | Fire safety standards |
 | **Smoke level - Alert** | 10-40 (2% of time) | Occasional false alarms from cooking, steam, dust | Fire Alarm Statistics | "False alarm rates in residential settings typically 2-10% of monitoring periods" | https://www.usfa.fema.gov/prevention/outreach/smoke_alarms.html |
+
 
 ### 3. INCIDENTS.CSV
 | What I Used | Value in my Script | Why I need this | Research Proof | Exact Quote | Source/Link |
@@ -84,7 +92,9 @@ The variables in each dataset were selected based on existing research, governme
 
 As a summary, the parameters in the datasets I have created using Python are all research-backed. Nothing is made up randomly. The exact percentages (such as fall, medication, and the like) matches official AIHW 2023-24 government data. The fall timing, activity levels and heart rates use peer-reviewed studies. The WHO temperature guidelines and Mayo Clinic rates follow medical standards. Merged together, the three datasets contain a combined total of 366,608 records across 3 files which shows a realistic data volume. They also follow proper database design principles, including foreign keys, normalisation, and relational structure.
 
+
 ---
+
 
 ## 4. 8 SQL Queries Used
 | Query | Business Question | Key Finding |
@@ -98,6 +108,10 @@ As a summary, the parameters in the datasets I have created using Python are all
 | **Query 7: Health Behaviour & Early Warning Indicators** | Can health metrics help predict incidents? | Step counts (6,596–6,996) and heart rates (73–75 bpm) are consistent across all incident types, suggesting health metrics alone cannot predict incidents. |
 | **Query 8: High-Risk Individual Monitoring** | Which individuals need enhanced monitoring? | No residents were identified as extreme risk. | 
 
+
+---
+
+
 ## Dashboard Previews
 ### Excel
 ![Excel Dashboard](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
@@ -109,16 +123,23 @@ This Excel dashboard shows data from February 2025 to January 2026, one full yea
 - **Incident Types by Category**: Falls are the most common type of incident across all risk groups. High-risk residents have the most incidents overall compared to medium and low-risk residents.
 - **Key Insights and Findings**: Summarises the most important findings from the dashboard, written in plain text for quick and easy reading.
 
+
 ### Power BI - Low Risk View
 ![Power BI Low Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Low-Risk-View.png)
 This dashboard filters data to show only **low-risk residents aged 65-74**. Safety performance is generally stable with no clear upward or downward trend in incidents throughout the year. Falls are the most common incident type across all cities, and most incidents are being resolved. However, the serious incident rate is above threshold, suggesting that even low-risk residents still need careful monitoring.
 
+
 ### Power BI - Medium Risk View
 ![Power BI Medium Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Medium-Risk-View.png)
+This dashboard filters data to show only medium-risk residents aged 75 to 84. The average response time is 14.82 minutes, just within the 15-minute SIRS target, and the incident closure rate is 74.21%. However, the serious incident rate is above threshold at 8.18%, indicating this group still requires close attention. Falls remain the most common incident type across all cities, with Perth again having the highest incident volume, and monthly incidents show a declining trend toward the end of the year.
+
 
 ### Power BI - High Risk View
 ![Power BI High Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/High-Risk-View.png)
 This dashboard filters data to show only **high-risk residents aged 85 and above**. Despite being the highest risk group, the serious incident rate is relatively low at 8.48% though still above threshold, and high-severity incidents have the best resolution rate at 84.21%. Falls remain the most common incident type across all cities, with Perth having the highest incident volume. Monthly incidents fluctuate throughout the year with high-severity incidents showing more dramatic ups and downs compared to total incidents.
+
+
+---
 
 
 ## Key Insights
