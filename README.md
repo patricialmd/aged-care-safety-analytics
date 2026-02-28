@@ -4,6 +4,10 @@
 
 This end-to-end data analytics project analyses the safety and risk monitoring of 1,000 elderly residents across 6 major Australian cities, which are Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane. It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters sourced from existing literature and official sources, to an interactive Power BI dashboard, with SQL analysis and Microsoft Excel pivot reporting in between.
 
+
+---
+
+
 ## 1. Introduction
 In Australia, the elderly population is increasing, which means more people need support and need to move to care homes. In aged care facilities, more residents means more responsibility, and it is harder for staff to keep everyone safe. Older people are more likely to get sick suddenly, fall, need medication, and need help with daily activities such as walking or eating. This project aims to bridge that gap by analysing safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities, with the goal of identifying patterns that can support better care decisions and resource planning for older Australians.
 
@@ -112,7 +116,7 @@ As a summary, the parameters in the datasets I have created using Python are all
 ---
 
 
-## Dashboard Previews
+## 5. Dashboard Previews
 ### Excel
 ![Excel Dashboard](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
 This Excel dashboard shows data from February 2025 to January 2026, one full year of monitoring 1,000 elderly residents across 6 Australian cities. It has a total of 5 charts and a key insights & findings section:
@@ -142,7 +146,7 @@ This dashboard filters data to show only **high-risk residents aged 85 and above
 ---
 
 
-## Key Insights
+## 6. Key Insights
 - **Falls are the most common incident type** across ALL risk groups, making up 36% of total incidents with 233 cases recorded.
 - **Safety performance is stable** for the whole year, with monthly incidents ranging from 34 to 62 and no signs of worsening over time.
 - **High-severity incidents are responded quickly**, with an average response of 4.8 minutes, which meets SIRS expectations.
@@ -151,5 +155,11 @@ This dashboard filters data to show only **high-risk residents aged 85 and above
 - **No residents were identified as extreme risk**, as no one simultaneously met all high-risk thresholds.
 - **The serious incident rate is above threshold across all risk levels**, which means all residents need careful monitoring regardless of risk category.
 
-## Conclusion
+
+---
+
+
+## 7. Conclusion
+This project shows that data analytics can help aged-care homes understand what is happening to their residents and identify patterns, predict risks, and prevent incidents before they actually happen. The analysis reveals that: 1) many elderly residents get hurt because of falls, 2) Perth needs the most staff, support services, and equipment among the 6 cities, and 3)staff are responding to incidents quickly enough according to safety standards. However, because older people are fragile, even low-risk residents are prone to serious incidents, so safety must always be monitored for everyone, not only high-risk residents. As Australia's ageing population continues to grow, projects like this show how data can be used to support staff, improve care decisions, and ultimately keep older Australians safer in their homes and care facilities.
+
 
