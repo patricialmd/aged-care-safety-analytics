@@ -101,6 +101,13 @@ As a summary, the parameters in the datasets I have created using Python are all
 ## Dashboard Previews
 ### Excel
 ![Excel Dashboard](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
+The Excel dashboard shows data from February 2025 to January 2026, one full year of monitoring 1,000 elderly residents across 6 Australian cities. It has a total of 5 charts and a key insights & findings section:
+- 1.*Monthly Safety trends*:  The number of incidents goes up and down slightly each month but stays within a similar range throughout the year. There are no dramatic spikes or drops. High-severity incidents follow a similar pattern, peaking in the middle of the year then going down toward the end.
+- 2.*Resolution Rates by Severity*: Most incidents across all severity levels are being resolved as the resolved portion is much bigger than the unresolved portion in all 3 groups.
+- 3.*Response Performance by Severity*: The more serious the incident, the faster the response. High-severity incidents get the quickest attention while low-severity incidents take the longest to respond to.
+- 4.*Population by Risk & Location*: Perth stands out as the city with the most high-risk residents compared to all other cities.
+- 5.*Incident Types by Category*: Falls are the most common type of incident across all risk groups. High-risk residents have the most incidents overall compared to medium and low-risk residents.
+- 6.*Key Insights and Findings*: Summarises the most important findings from the dashboard, written in plain text for quick and easy reading.
 
 ### Power BI - Low Risk View
 ![Power BI Low Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Low-Risk-View.png)
