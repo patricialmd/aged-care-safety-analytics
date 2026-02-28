@@ -3,7 +3,7 @@
 
 This portfolio project analyses resident safety incidents, health monitoring metrics, and population risk profiles across 6 major Australian cities (Sydney, Melbourne, Perth, Adelaide, Canberra, and Brisbane). It shows a complete data analytics workflow: from synthetic dataset generation in Python based on real-world parameters backed up by research to an interactive Power BI dashboard, with SQL Analysis and Microsoft Excel pivot reporting in between.
 
-![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_AllRisks.png)
+![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/All-Risks-View.png)
 
 
 ## Tools I Used
@@ -100,13 +100,13 @@ This portfolio project analyses resident safety incidents, health monitoring met
 ![Excel Dashboard](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Excel_Dashboard.png)
 
 ### Power BI - Low Risk View
-![Power BI Low Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_LowRisk.png)
+![Power BI Low Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Low-Risk-View.png)
 
 ### Power BI - Medium Risk View
-![Power BI Medium Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_MediumRisk.png)
+![Power BI Medium Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Medium-Risk-View.png)
 
 ### Power BI - High Risk View
-![Power BI High Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/Dashboard_PowerBI_HighRisk.png)
+![Power BI High Risk](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/High-Risk-View.png)
 
 
 ## Key Insights
