@@ -1,4 +1,4 @@
-# Aged Care Safety & Risk Monitoring Analytics 
+# Aged Care Safety Analytics 
 
 ![Dashboard Preview](https://github.com/patricialmd/aged-care-safety-analytics/blob/main/06_screenshots/All-Risks-View.png)
 
